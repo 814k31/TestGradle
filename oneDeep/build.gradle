@@ -1,0 +1,6 @@
+jar {
+	manifest {
+		// Non-standard, for illustration only
+		attributes 'Plugin-Class': 'OneDeep'
+	}
+}

@@ -1,0 +1,13 @@
+apply plugin: 'application'
+
+dependencies {
+	compile project(':oneDeep')
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'Main'
+	}
+}
+
+mainClassName = 'Main'
