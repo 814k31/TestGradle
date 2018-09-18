@@ -10,9 +10,7 @@ Directory structure
 ```
 app
 oneDeep
-   \
     twoDeep
-      \
        build.gradle
     build.gradle
 build.gradle
