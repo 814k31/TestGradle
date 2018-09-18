@@ -1,3 +1,7 @@
+dependencies {
+	compile project(':twoDeep')
+}
+
 jar {
 	manifest {
 		// Non-standard, for illustration only

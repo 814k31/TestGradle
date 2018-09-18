@@ -64,7 +64,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/app.jar:$APP_HOME/lib/oneDeep.jar
+CLASSPATH=$APP_HOME/lib/app.jar:$APP_HOME/lib/oneDeep.jar:$APP_HOME/lib/twoDeep.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
