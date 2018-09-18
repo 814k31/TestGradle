@@ -1,3 +1,6 @@
+Build: `gradle build`
+Run: `gradle run`
+
 Dependency Chain
 
 ```
