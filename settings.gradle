@@ -1,1 +1,3 @@
-include 'app', 'oneDeep', 'oneDeep:twoDeep'
+include 'app', 'oneDeep', 'twoDeep'
+
+project(':twoDeep').projectDir = file('oneDeep/twoDeep')
