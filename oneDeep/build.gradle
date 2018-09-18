@@ -1,5 +1,5 @@
 dependencies {
-	compile project(':twoDeep')
+	compile project(':oneDeep:twoDeep')
 }
 
 jar {
